@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "dotnet-counters": {
+      "version": "7.0.430602",
+      "commands": [
+        "dotnet-counters"
+      ]
+    },
+    "dotnet-dump": {
+      "version": "7.0.430602",
+      "commands": [
+        "dotnet-dump"
+      ]
+    },
+    "cake.tool": {
+      "version": "3.1.0",
+      "commands": [
+        "dotnet-cake"
+      ]
+    },
+    "dotnet-coverage": {
+      "version": "17.8.2",
+      "commands": [
+        "dotnet-coverage"
+      ]
+    },
+    "dotnet-gcdump": {
+      "version": "7.0.430602",
+      "commands": [
+        "dotnet-gcdump"
+      ]
+    },
+    "dotnet-monitor": {
+      "version": "7.2.1",
+      "commands": [
+        "dotnet-monitor"
+      ]
+    },
+    "dotnet-trace": {
+      "version": "7.0.430602",
+      "commands": [
+        "dotnet-trace"
+      ]
+    },
+    "dotnet-stack": {
+      "version": "7.0.430602",
+      "commands": [
+        "dotnet-stack"
+      ]
+    },
+    "dotnet-symbol": {
+      "version": "1.0.415602",
+      "commands": [
+        "dotnet-symbol"
+      ]
+    },
+    "dotnet-sos": {
+      "version": "7.0.430602",
+      "commands": [
+        "dotnet-sos"
+      ]
+    },
+    "dotnet-dsrouter": {
+      "version": "7.0.430602",
+      "commands": [
+        "dotnet-dsrouter"
+      ]
+    }
+  }
+}

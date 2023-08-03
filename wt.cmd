@@ -1,1 +1,2 @@
-Terminal\WindowsTerminal.exe
+dotnet tool restore
+WindowsTerminal\WindowsTerminal.exe

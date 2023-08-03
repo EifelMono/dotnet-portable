@@ -22,6 +22,7 @@ var PackageIds = new List<string>
       "dotnet-dsrouter",
 
       "cake.tool",
+      "PowerShell",
    };
 
 Task("DownLoadFromNuget")

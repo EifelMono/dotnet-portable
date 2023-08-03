@@ -1,5 +1,24 @@
 # dotnet tools portable
 
+- [dotnet tools portable](#dotnet-tools-portable)
+  - [Why](#why)
+  - [dotnet tools](#dotnet-tools)
+    - [dotnet-counters](#dotnet-counters)
+    - [dotnet-coverage](#dotnet-coverage)
+    - [dotnet-dump](#dotnet-dump)
+    - [dotnet-gcdump](#dotnet-gcdump)
+    - [dotnet-monitor](#dotnet-monitor)
+    - [dotnet-trace](#dotnet-trace)
+    - [dotnet-stack](#dotnet-stack)
+    - [dotnet-symbol](#dotnet-symbol)
+    - [dotnet-sos](#dotnet-sos)
+    - [dotnet-dsrouter](#dotnet-dsrouter)
+  - [Learning videos](#learning-videos)
+    - [Finding MEMORY LEAKS in C# .NET Applications](#finding-memory-leaks-in-c-net-applications)
+      - [Steps from the video](#steps-from-the-video)
+- [Windows Terminal](#windows-terminal)
+  - [Download](#download)
+
 ## Why
 
 We dot not have internet ......
@@ -19,6 +38,8 @@ dotnet counters -ps
 dotnet counters monitor -p [processid from dotnet counters ps]
 
 ```
+
+Additional Windows Terminal is also available.
 
 ## [dotnet tools](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/tools-overview)
 
@@ -65,3 +86,7 @@ dumpheap -mt [address from dumpheap -stat]
 
 gcroot [address from dumpheap -mt]
 ```
+
+# Windows Terminal
+
+## [Download](https://github.com/microsoft/terminal/releases)

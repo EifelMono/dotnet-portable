@@ -18,6 +18,7 @@
       - [Steps from the video](#steps-from-the-video)
 - [Windows Terminal](#windows-terminal)
   - [Download](#download)
+- [Powershell](#powershell)
 
 ## Why
 
@@ -90,3 +91,7 @@ gcroot [address from dumpheap -mt]
 # Windows Terminal
 
 ## [Download](https://github.com/microsoft/terminal/releases)
+
+# Powershell
+
+Include in the nugets

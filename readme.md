@@ -11,6 +11,15 @@ install them from this directory with the follwing command
 dotnet tool restore
 ```
 
+This stuff is to look at running dotnet programs
+
+```console
+dotnet counters -ps
+
+dotnet counters monitor -p [processid from dotnet counters ps]
+
+```
+
 ## [dotnet tools](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/tools-overview)
 
 ### [dotnet-counters](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-counters)
@@ -42,11 +51,11 @@ dotnet tool restore
 ```console
 dotnet counters ps
 
-dotnet counters monitor -p [processid]
+dotnet counters monitor -p [processid from dotnet counters ps]
 
 dotnet dump ps
 
-dotnet dump collect -p [processid]
+dotnet dump collect -p [processid from dotnet dump ps]
 
 dotnet dump analyze [filepath]
 

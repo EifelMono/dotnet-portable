@@ -1,2 +1,3 @@
-dotnet tool restore
-WindowsTerminal\WindowsTerminal.exe
+@echo off
+@dotnet tool restore
+@WindowsTerminal\WindowsTerminal.exe -d .

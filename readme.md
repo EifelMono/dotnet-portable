@@ -19,6 +19,8 @@
 - [Windows Terminal](#windows-terminal)
   - [Download](#download)
 - [Powershell](#powershell)
+- [Visual Studio Code portable](#visual-studio-code-portable)
+  - [Download](#download-1)
 
 ## Why
 
@@ -94,4 +96,21 @@ gcroot [address from dumpheap -mt]
 
 # Powershell
 
-Include in the nugets
+Is include in the nugets.
+It only works if this tool is installad as a global tool
+
+```console
+@dotnet tool install powershell -d
+
+oder run
+
+pwshg
+```
+
+# Visual Studio Code portable
+
+Infos how to use [portable mode](https://code.visualstudio.com/docs/editor/portable)
+
+## [Download](https://code.visualstudio.com/download)
+
+you need the zip/.tar.gz file
